@@ -1,0 +1,12 @@
+#　kadai_005
+# 変数への数値代入
+a = 10
+b = 20
+c = 5
+d = 2
+# 単位
+unit = "㎠"
+
+# 変数を使った計算
+result = (a + b) * c / d
+print(f"{result} {unit}")
