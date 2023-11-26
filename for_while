@@ -1,0 +1,13 @@
+planet_list = ["水", "金", "地", "火", "木", "土", "天", "海", "冥"]
+
+# forループを使用
+print("Using for loop:")
+for element in planet_list:
+    print(element)
+
+# whileループを使用
+print("\nUsing while loop:")
+index = 0
+while index < len(planet_list):
+    print(planet_list[index])
+    index += 1
